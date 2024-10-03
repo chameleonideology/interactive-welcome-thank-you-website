@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Welcome, Thank_You.</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Name and Image Received</h1>
+            <form id="nameForm">
+                <input type="text" id="nameInput" placeholder="Enter your name" required>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="thankYouMessage" class="hidden">
+                <h2>Thank You!</h2>
+                <img src="./img/20231025_133104.jpg" alt="Thank You #128526" class="thankyou-image">
+                <p id="submittedName"></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
