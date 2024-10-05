@@ -5,19 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./img/cat.jpg">
+    <link rel="stylesheet" href="./img/butterfly.jpg">
+    <link rel="stylesheet" href="./img/chameleon.jpg">
+    <link rel="stylesheet" href="./img/deer.jpg">
+    <link rel="stylesheet" href="./img/flamingo.jpg">
+    <link rel="stylesheet" href="./img/horse.jpg">
+    <link rel="stylesheet" href="./img/owl.jpg">
+    <link rel="stylesheet" href="./img/panda.jpg">
+    <link rel="stylesheet" href="./img/penguin.jpg">
+    <link rel="stylesheet" href="./img/squirrel.jpg">
     <title>Welcome, Thank_You.</title>
 </head>
 <body>
     <div class="container">
         <div class="card">
-            <h1>Name and Image Received</h1>
-            <form id="nameForm">
-                <input type="text" id="nameInput" placeholder="Enter your name" required>
+            <h1 id="headerText">Enter an Animal Name</h1>
+            <form id="animalForm">
+                <input type="text" id="animalInput" placeholder="Type an animal name" required>
                 <button type="submit">Submit</button>
             </form>
             <div id="thankYouMessage" class="hidden">
-                <h2>Thank You!</h2>
-                <img src="./img/20231025_133104.jpg" alt="Thank You #128526" class="thankyou-image">
+                <h2>Thank You!!!</h2>
+                <img id="animalImage"  src="" alt="Animal image will appear here">
                 <p id="submittedName"></p>
             </div>
         </div>
