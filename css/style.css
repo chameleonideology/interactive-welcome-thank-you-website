@@ -22,6 +22,12 @@ body {
     margin: 20px;
 }
 
+#countdown {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: orange;
+}
+
 .card {
     background-color: white;
     padding: 40px;
